@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  width: 100vw;
+  padding: 20px 0;
+  background-color: #f0ecfc;
+  background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+}
+
+.image-card-parent-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* #838080  */
