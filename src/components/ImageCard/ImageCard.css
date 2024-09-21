@@ -1,0 +1,53 @@
+.image-card-container {
+    background-color: white;
+    flex: 30%;
+    border-radius: 12px;
+    padding: 6px 10px;
+}
+
+.image-card-personal-details {
+    padding: 0 40px;
+}
+
+
+
+.image-card-personal-details-name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.image-card-personal-details-contact {
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+}
+
+.image-card-personal-details-reduce-margin {
+    margin: -12px 0;
+}
+
+.image-card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.image-card-details-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.align-sidewise {
+    display: flex;
+    align-items: center;
+}
+
+.align-sidewise > p {
+    margin-left: 2px;
+}

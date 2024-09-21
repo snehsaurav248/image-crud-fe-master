@@ -1,0 +1,30 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px; /* Increased padding for larger box size */
+  background-color: #282c34;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 80px; /* Set a fixed height for the navbar */
+}
+
+.navbar-logo {
+  font-size: 28px; /* Increased font size */
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 30px; /* Increased space between menu items */
+}
+
+.navbar-item {
+  cursor: pointer;
+  font-size: 18px; /* Increased font size for menu items */
+  transition: color 0.3s;
+}
+
+.navbar-item:hover {
+  color: #61dafb; /* Change color on hover */
+}
